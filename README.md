@@ -47,7 +47,7 @@ It bridges theoretical discrete graph optimization in **MATLAB** with 3D physics
 
 | Global $A^*$ Grid Planning | 3D Webots Flight Simulation | $1 \times 2$ Live Camera & HUD |
 | :---: | :---: | :---: |
-| ![A* Planner](docs/assets/astar_planning.png) | ![Webots 3D](docs/assets/webots_sim.gif) | ![Live HUD](docs/assets/camera_hud.png) |
+| ![A* Planner](docs/assets/astar_planning.png) | ![Webots 3D](docs/assets/webots_sim.gif) | ![Live HUD](docs/assets/camera_hud2v.png) |
 | *Shortest collision-free grid search* | *Physics-based obstacle avoidance* | *Real-time cockpit stream & coordinates* |
 
 ---
