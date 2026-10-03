@@ -1,0 +1,27 @@
+# MATLAB
+*.asv
+*.m~
+*.slxc
+*.mex*
+*.mat~
+slprj/
+_UpgradeReport_Files/
+
+# Temporary Simulation Telemetry & Camera Streams
+trajectory_*.csv
+status_*.csv
+camera_*.png
+camera_*.jpg
+live_*.csv
+
+# Webots Cache & Logs
+.webots*
+*.wbt.lock
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
