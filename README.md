@@ -155,8 +155,4 @@ $$f(n) = g(n) + h(n)$$
 
 ---
 
-## 🤝 Contributing & Academic Use
-
-Pull requests and issues are welcome! If you use this project for robotics coursework, research, or laboratory demonstrations, feel free to star ⭐ the repository.
-
 **License:** MIT License — free for academic and commercial use.
