@@ -20,7 +20,27 @@ It bridges theoretical discrete graph optimization in **MATLAB** with 3D physics
 
 ---
 
-## 📸 System Architecture & Visuals
+## 📸 Demonstration & Visual Showcase
+
+### 1. MATLAB Global Planning & Live Telemetry HUD ($1 \times 2$ View)
+
+| 🗺️ Global $A^*$ Grid Planning | 📡 $1 \times 2$ Live FPV Camera & Target HUD |
+| :---: | :---: |
+| <img src="docs/assets/astar_planning.png" width="100%" alt="Global A* Grid Planner" /> | <img src="docs/assets/camera_hud2v.png" width="100%" alt="Live FPV Camera HUD" /> |
+| *Shortest collision-free path search ($f = g + h$)* | *Real-time dual cockpit stream & coordinates* |
+
+---
+
+### 2. Real-Time 3D Physics Simulation (Webots Apartment)
+
+<div align="center">
+  <img src="docs/assets/webots_sim.gif" width="95%" alt="3D Webots Simulation Flight" />
+  <p><em><b>Figure:</b> Simultaneous deconflicted flight of two Bitcraze Crazyflie quadcopters navigating through apartment doorways, avoiding furniture obstacles, and tracking A* waypoints in real-time physics.</em></p>
+</div>
+
+---
+
+## 📐 System Architecture
 
 ```
                       ┌────────────────────────────────────────┐
@@ -45,10 +65,6 @@ It bridges theoretical discrete graph optimization in **MATLAB** with 3D physics
                       └────────────────────────────────────────┘
 ```
 
-| Global $A^*$ Grid Planning | 3D Webots Flight Simulation | $1 \times 2$ Live Camera & HUD |
-| :---: | :---: | :---: |
-| ![A* Planner](docs/assets/astar_planning.png) | ![Webots 3D](docs/assets/webots_sim.gif) | ![Live HUD](docs/assets/camera_hud2v.png) |
-| *Shortest collision-free grid search* | *Physics-based obstacle avoidance* | *Real-time cockpit stream & coordinates* |
 
 ---
 
@@ -109,7 +125,7 @@ AStar-Drone-Fleet-Demo/
 │   └── crazyflie_matlab_controller/
 │       └── crazyflie_matlab_controller.py # Native cascaded PID flight controller
 └── docs/
-    └── assets/                   # Architecture diagrams and demonstration screenshots
+    └── assets/                   # Demonstration screenshots and simulation animations
 ```
 
 ---
